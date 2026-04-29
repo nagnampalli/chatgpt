@@ -6,6 +6,6 @@ region           = "ap-mumbai-1"
 compartment_ocid = "ocid1.compartment.oc1..aaaaaaaawrnkou5ox5q4grmib5ojwbmydzismzyjplj7unpfxmhvcbcsj5pa"
 
 # Use Oracle Linux 8/9 image OCID for your region
-image_ocid       = "ocid1.image.oc1.ap-mumbai-1.aaaaaaaaxqv6lqv7v2m4z2v7v2m4z2v7v2m4z2v7v2m4z2v7v2m4z2v7v2m4"
+#image_ocid       = "ocid1.image.oc1.ap-mumbai-1.aaaaaaaaxqv6lqv7v2m4z2v7v2m4z2v7v2m4z2v7v2m4z2v7v2m4z2v7v2m4"
 
 ssh_public_key   = "~/.ssh/id_rsa.pub"

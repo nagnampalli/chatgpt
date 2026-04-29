@@ -122,7 +122,8 @@ resource "oci_core_instance" "web_instance" {
 
   source_details {
     source_type = "image"
-    source_id   = var.image_ocid
+    #source_id   = var.image_ocid
+    source_id   = data.oci_core_images.oracle_linux.images[0].id
   }
 
   metadata = {
